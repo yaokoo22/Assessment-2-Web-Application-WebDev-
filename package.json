@@ -1,0 +1,14 @@
+{
+  "name": "tape-player-backend",
+  "version": "1.0.0",
+  "description": "Nostalgic tape player with metadata extraction",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "music-metadata": "^8.1.4"
+  }
+}
